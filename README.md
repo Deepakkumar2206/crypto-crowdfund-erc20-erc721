@@ -63,6 +63,28 @@ NFT_ADDR=0xDeployedNFTAddress
 - Refund path when goal not met.
 - NFT minting checks per contribution.
 
+### Metadata & Image Hosting (Pinata/IPFS)
+
+#### - Image Upload - The supporter badge image (supporter.png) was uploaded to Pinata (IPFS pinning service).
+#### - Metadata JSON → A JSON file was created pointing to this image CID, e.g.:
+
+```shell
+{
+  "name": "Supporter Badge",
+  "description": "NFT badge for crowdfund supporters",
+  "image": "ipfs://<imageCID>/supporter.png"
+}
+```
+
+#### - Pinata Gateway → The JSON + image is accessible via https://ipfs.io/ipfs/<CID> links.
+
+#### - Each contribution mints an NFT → tokenURI points to the IPFS JSON metadata.
+
+
+### Infura (Sepolia RPC Provider)
+#### - We used Infura to connect Foundry (Forge/Cast) with the Sepolia testnet.
+
+
 ### Commands
 #### Build & Test
 
