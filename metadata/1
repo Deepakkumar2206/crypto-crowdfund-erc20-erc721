@@ -1,0 +1,8 @@
+{
+  "name": "Backer #1",
+  "description": "Supporter badge for Crowdfund contributor.",
+  "image": "ipfs://bafybeib6hxjnialf2fqmjdrf3f5hlw5d4bfywnfc4p4cexrhj3ptex2l74/supporter.png",
+  "attributes": [
+    { "trait_type": "Tier", "value": "Contributor" }
+  ]
+}
