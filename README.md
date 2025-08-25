@@ -139,9 +139,15 @@ Supporter NFT Contract - https://sepolia.etherscan.io/address/0xe319004B0C05EdBB
 
 ### NFT Showcase
 ```shell
-NFT Token #2 Owner → 0xF8A8F8BB42C680Fd5C1EEd2d1c5D638E2C4f4B78
+NFT Token #1 Owner - 0xF8A8F8BB42C680Fd5C1EEd2d1c5D638E2C4f4B78
 
-NFT Metadata (Token #2) → https://ipfs.io/ipfs/bafybeifcg3rzin4nyeqkrkxw2zeo4mdzlwyvzrlxjr7rb2qebtcavonxje/2
+NFT Token #2 Owner - 0xF8A8F8BB42C680Fd5C1EEd2d1c5D638E2C4f4B78
+# both same owner address.
+
+ 
+NFT MetaData (Token #1) - https://ipfs.io/ipfs/bafybeifcg3rzin4nyeqkrkxw2zeo4mdzlwyvzrlxjr7rb2qebtcavonxje/1
+
+NFT Metadata (Token #2) - https://ipfs.io/ipfs/bafybeifcg3rzin4nyeqkrkxw2zeo4mdzlwyvzrlxjr7rb2qebtcavonxje/2
 
 NFT Image - https://ipfs.io/ipfs/bafybeib6hxjnialf2fqmjdrf3f5hlw5d4bfywnfc4p4cexrhj3ptex2l74
 ```
