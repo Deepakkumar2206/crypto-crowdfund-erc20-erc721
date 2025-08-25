@@ -66,7 +66,7 @@ NFT_ADDR=0xDeployedNFTAddress
 ### Metadata & Image Hosting (Pinata/IPFS)
 
 #### - Image Upload - The supporter badge image (supporter.png) was uploaded to Pinata (IPFS pinning service).
-#### - Metadata JSON → A JSON file was created pointing to this image CID, e.g.:
+#### - Metadata JSON - A JSON file was created pointing to this image CID, e.g.:
 
 ```shell
 {
@@ -76,9 +76,9 @@ NFT_ADDR=0xDeployedNFTAddress
 }
 ```
 
-#### - Pinata Gateway → The JSON + image is accessible via https://ipfs.io/ipfs/<CID> links.
+#### - Pinata Gateway - The JSON + image is accessible via https://ipfs.io/ipfs/<CID> links.
 
-#### - Each contribution mints an NFT → tokenURI points to the IPFS JSON metadata.
+#### - Each contribution mints an NFT - tokenURI points to the IPFS JSON metadata.
 
 
 ### Infura (Sepolia RPC Provider)
